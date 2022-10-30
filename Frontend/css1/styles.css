@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  height: 75px;
+}
+
+.navbar li {
+  padding-right: 30px;
+  transition: 0.5s;
+}
+
+.carousel-inner p {
+  font-size: 20px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+}
+
+.carousel-inner h5 {
+  font-size: 40px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+}
+
+.carousel-inner img {
+  width: 100%;
+}
+
+.media:hover {
+  box-shadow: 0px 0px 15px rgb(0 0 0 / 50%);
+  transition: 0.5s !important;
+}
+
+.media {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.figure img:hover {
+  box-shadow: 0px 0px 8px rgb(133, 133, 133);
+  filter: brightness(70%);
+  margin-top: -20px;
+  transition: 0.5s;
+}
+
+.row a#more {
+  border-radius: 20px;
+  margin-top: 30px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list-group:hover {
+  margin-top: -10px;
+  transition: 0.5s;
+}
+
+.jumbotron #reserve {
+  background-image: url("../images/");
+  background-size: cover;
+}
+
+.icon img:hover {
+  background-color: white;
+  transition: 0.5s;
+}
+
+.icon img {
+  border-radius: 10%;
+}
